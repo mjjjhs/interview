@@ -70,7 +70,7 @@
 >input 및 selectbox 및 checkbox 등의 value를 변수에 v-model로 설정하여 양방향으로 바라보게 하였고 해당 변수에 watch를 설정하여 인풋의 값을 수정하여 v-model이 변경되면 그것을 바라보던 watch가 작동하여 모든 데이터의 유효성을 체크하여 모두 유효하면 checkout 버튼을 활성화합니다. 그러나 v-model은 붙여넣기를 하면 반응을 하지않아
 대응방안으로 focusout을 한번 더 걸어 체크를 하였습니다.  
 >  
-><img src="https://user-images.githubusercontent.com/4207593/54223882-c90d7480-453b-11e9-98bd-544edc34bf0b.png" width="90%">  
+><img src="https://user-images.githubusercontent.com/4207593/54223882-c90d7480-453b-11e9-98bd-544edc34bf0b.png" width="70%">  
 ><img src="https://user-images.githubusercontent.com/4207593/54223977-fb1ed680-453b-11e9-9fe6-f459494ab328.png" width="90%">  
 >  
 >체크아웃 버튼 클릭시 axios post로 데이터를 구매자의 개인정보가 있기때문에 aes-256 + salt 로 암호화하여 서버로 Request 합니다. Promise를 이용하여 콜백처리하는 것보다 async await가 더욱 간결하기 때문에 애용합니다. 발표 준비를 하다 보니 try catch문을 넣었으면 더 좋았을 것 같다는 생각을 하게 됐습니다. 서버와 정상적으로 통신이 됐다면 Store에 필요한 data들을 dispatch합니다.  
