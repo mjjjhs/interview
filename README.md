@@ -21,7 +21,7 @@
 >1. 구조 및 사용 스택  
 >  
 ><img src="https://user-images.githubusercontent.com/4207593/54216452-03bbe080-452d-11e9-8741-3cfa7d385a79.png" width="70%">  
-><img src="https://user-images.githubusercontent.com/4207593/54216643-601f0000-452d-11e9-942b-a7d52714ee50.png" width="70%">  
+><img src="https://user-images.githubusercontent.com/4207593/54216643-601f0000-452d-11e9-942b-a7d52714ee50.png" width="50%">  
 ><img src="https://user-images.githubusercontent.com/4207593/54219659-497ba780-4533-11e9-8521-9bc46a2593bc.png" width="70%">  
 >  
 >해당 프로젝트 구조는 이렇게 되어 있습니다.  
@@ -35,9 +35,9 @@
 >  
 >모바일 화면 -  
 >  
-><img src="https://user-images.githubusercontent.com/4207593/54200305-72d60c80-450e-11e9-93f4-f376995c66bf.png" width="70%">  
-><img src="https://user-images.githubusercontent.com/4207593/54200303-723d7600-450e-11e9-99ad-2d0eda7b278f.png" width="70%">  
-><img src="https://user-images.githubusercontent.com/4207593/54200304-72d60c80-450e-11e9-98d5-1acd51a31534.png" width="70%">  
+><img src="https://user-images.githubusercontent.com/4207593/54200305-72d60c80-450e-11e9-93f4-f376995c66bf.png" width="50%">  
+><img src="https://user-images.githubusercontent.com/4207593/54200303-723d7600-450e-11e9-99ad-2d0eda7b278f.png" width="50%">  
+><img src="https://user-images.githubusercontent.com/4207593/54200304-72d60c80-450e-11e9-98d5-1acd51a31534.png" width="50%">  
 >  
 >소스 -  
 >  
