@@ -22,8 +22,9 @@
 <img src="https://user-images.githubusercontent.com/4207593/54216452-03bbe080-452d-11e9-8741-3cfa7d385a79.png" width="70%">
 <img src="https://user-images.githubusercontent.com/4207593/54216643-601f0000-452d-11e9-942b-a7d52714ee50.png" width="70%">
 <img src="https://user-images.githubusercontent.com/4207593/54219659-497ba780-4533-11e9-8521-9bc46a2593bc.png" width="70%">
-일단 해당 프로젝트의 구조는 이렇게 되어 있습니다.
-사용 스택은 Vue Nuxt, Vuex, bootstrap-vue, web3, socket.io, axios등을 사용했습니다.
+해당 프로젝트 구조는 이렇게 되어 있습니다. 사용 스택은 Vue Nuxt, Vuex, bootstrap-vue, web3, socket.io, axios등을 사용했습니다.
+>
+>
 >2. 진입 화면
 PC 화면 -
 <img src="https://user-images.githubusercontent.com/4207593/54199765-19211280-450d-11e9-85ef-aea8f597cd43.png" width="70%">
@@ -52,6 +53,8 @@ input 및 selectbox 및 checkbox 등의 value를 변수에 v-model로 설정하�
 <img src="https://user-images.githubusercontent.com/4207593/54223882-c90d7480-453b-11e9-98bd-544edc34bf0b.png" width="90%">
 <img src="https://user-images.githubusercontent.com/4207593/54223977-fb1ed680-453b-11e9-9fe6-f459494ab328.png" width="90%">
 체크아웃 버튼 클릭시 axios post로 데이터를 구매자의 개인정보가 있기때문에 aes-256 + salt 로 암호화하여 서버로 Request 합니다. Promise를 이용하여 콜백처리하는 것보다 async await가 더욱 간결하기 때문에 애용합니다. 발표 준비를 하다 보니 try catch문을 넣었으면 더 좋았을 것 같다는 생각을 하게 됐습니다. 서버와 정상적으로 통신이 됐다면 Store에 필요한 data들을 dispatch합니다.
+>
+>
 >3. 결제 송금 화면
 <img src="https://user-images.githubusercontent.com/4207593/54223616-38369900-453b-11e9-8ba3-ba238574592c.png" width="70%">
 <img src="https://user-images.githubusercontent.com/4207593/54224824-a8deb500-453d-11e9-96c2-c44e0f48df76.png" width="90%">
